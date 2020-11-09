@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>价格发布</title>
+    <style>
+        #myTable{
+            border-left:1px solid rgb(241, 235, 226);
+            border-top:1px solid rgb(241, 235, 226);
+            border-bottom:1px solid  rgb(241, 235, 226);
+            border-right: 1px solid   rgb(241, 235, 226);
+        }
+
+        .titleName {
+            width: 100%;
+            height: 60px;
+            background-color: orange;
+            color: white;
+            font-family: tahoma, "microsoft yahei" !important;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .titleName h3 {
+            font-weight: 500;
+            font-size: 26px;
+            margin-left: 44.5%;
+            margin-top: 1%;
+        }
+
+        .submit-btn {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 150px !important;
+            height: 40px !important;
+            background-color: orange;
+            color: white;
+            font-size: 17px;
+        }
+
+        .becenter {
+            text-align: center;
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+    
+
+    <div class="titleName">
+        <h3>价格发布</h3>
+    </div>
+    <p>&nbsp;</p>
+    <!-- 图片加信息 -->
+    <table border="1" cellspacing="0" align="center" width="400" id="myTable">
+        <tr>
+            <td height="150" rowspan="2">
+                <img src="1.jpg" alt="加载中" width="200" height="200" border="0">
+            </td> 
+            <td colspan="2" style="text-align:center">白夜行</td>
+        </tr>
+        <tr>
+            <td width=100 style="text-align: center">七成新</td>
+            <td width=100 style="text-align: center">生活一区</td>
+        </tr>
+    </table>
+    <p>
+        <div class="becenter">出手价：<input type="text" name="name" style="width: 200px;"></div>
+    </p>
+    <p>
+        <div class="becenter">原&nbsp;&nbsp;&nbsp;价：<input type="text" name="name" style="width: 200px;"></div>
+    </p>
+    
+    <form class="becenter">
+        <input type="checkbox" value="pick-up">支持自提
+    </form>
+    <p>&nbsp;</p>
+    
+    <div class="becenter"><input type="submit" class="submit-btn" name="book-submit"></div>
+</body>
+</html>
