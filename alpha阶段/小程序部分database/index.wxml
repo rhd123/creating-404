@@ -1,0 +1,23 @@
+<text>数据库添加</text>
+<text>-----------------</text>
+<view class="backbar">
+  <view class="add">
+    <text>姓名</text>
+    <input placeholder="请输入姓名" bindblur="handleName"></input>
+  </view>
+  <view class="add">
+    <text>QQ号</text>
+    <input placeholder="请输入QQ号" bindblur="handleQQ"></input>
+  </view>
+  <view class="add">
+    <text>手机号码</text>
+    <input placeholder="请输入手机号码" bindblur="handleTel"></input>
+  </view>
+  <view class="add">
+    <text>邮箱</text>
+    <input placeholder="请输入邮箱" bindblur="handleEmail"></input>
+  </view>
+  <button size="mini" plain type="primary" bindtap="handleAdd" class="btn">
+    数据添加
+  </button>
+</view>

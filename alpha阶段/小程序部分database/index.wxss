@@ -1,0 +1,16 @@
+.backbar{
+  widows: 100%;
+  height: fit-content;
+  background-color: burlywood;
+}
+.backbar.add{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20rpx 20rpx;
+  font-size: smaller;
+}
+.backbar.btn{
+  font-size: smaller;
+  margin-left: 400rpx;
+}
