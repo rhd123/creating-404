@@ -1,0 +1,61 @@
+<view>
+  <van-search
+  v-model="value"
+  shape="round"
+  placeholder="计算机组成原理" 
+  background="#e0620d" />
+</view>
+<!-- <view class="book-swiper">
+  <swiper indicator-dots="{{indicatordots}}" autoplay="{{autoplay}}" circular='{{circular}}' interval="{{interval}}">
+    <swiper-item>
+        <image src="/img/计算机组成原理.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+        <image src="/img/编译原理.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view> -->
+<!-- 轮播图 -->
+<text>\n</text> 
+<swiper class="index-swiper" indicator-dots="{{indicatordots}}" indicator-active-color="{{color}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height:{{height}}">
+  <block wx:for="{{img}}" wx:key = "key">
+    <swiper-item>
+      <image src="{{item}}" mode="widthFix" bindload='goheight' />
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- 分类导航 -->
+<view style="display: flex; flex-direction: row; justify-content: center;">
+  <view class="plate">
+  <block  wx:for = "{{cateslist}}" wx:key = "key">
+    <navigator class='plate-item'>
+    <view class= 'plate-img'>
+      <image src="{{item.url}}" mode="widthFix" />
+    </view>
+    <text class="plate-info">{{item.name}}</text>
+  </navigator>
+  </block>
+</view>
+</view>
+
+<view style="margin-left:10px">
+  <text class="guess-like">
+    猜你喜欢
+  </text>
+</view>
+
+<van-card
+  num="2"
+  price="2.00"
+  desc="描述信息"
+  title="商品标题"
+  thumb="https://img.yzcdn.cn/vant/ipad.jpeg"
+/>
+<van-card
+  num="2"
+  price="2.00"
+  desc="描述信息"
+  title="商品标题"
+  thumb="https://img.yzcdn.cn/vant/ipad.jpeg"
+/>
