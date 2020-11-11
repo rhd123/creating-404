@@ -1,0 +1,115 @@
+<!-- <!-- <van-col>
+  <van-row>
+    <van-col span="6" gutter="20">
+      我的在售
+      <van-image  src="../image/在售.png" />
+      <button class="saling">
+       <text class="sailing">我的在售</text>
+      </button> 
+    </van-col>
+    <van-col span="6" gutter="20">我的已售</van-col>
+    <van-col span="6" gutter="20">我的买入</van-col>
+    <van-col span="6" gutter="20">我的想要</van-col>
+  </van-row>
+</van-col> -->
+<!-- <van-grid>
+  <van-grid-item icon="../image/在售.png"  text="我的在售" >
+  </van-grid-item>
+  <van-grid-item icon="../image/已售.png"  text="我的已售" />
+  <van-grid-item icon="../image/买入.png"  text="我的买入" />
+  <van-grid-item icon="../image/收藏.png"  text="我的想要" />
+</van-grid> -->
+<!-- <van-grid :border="false" :column-num="3">
+  <van-grid-item>
+    <van-image src="../image/在售.png" />
+  </van-grid-item>
+  <van-grid-item>
+    <van-image src="../image/已售.png" />
+  </van-grid-item>
+  <van-grid-item>
+    <van-image src="../image/买入.png" />
+  </van-grid-item>
+</van-grid> 
+<van-row>
+  <van-col offset="8" span="24">
+  <van-image round
+  width="3rem"
+  height="3rem"
+  src="../img/head.png"/>
+  </van-col> 
+</van-row> 
+<van-cell-group>
+  <van-cell icon="../image/head.png" title="" value="个人信息" />
+  <van-cell icon="../image/收获地址.png" title="" value="收货地址" />
+  <van-cell icon="../image/账户安全.png" title="" value="账户安全" />
+  <van-cell icon="../image/信誉等级.png"title="" value="信用等级" />
+</van-cell-group> -->
+<!-- <van-row type="flex" justify="center">
+  <van-col  offset="10" span="6">杨超越</van-col>
+
+</van-row>
+<van-row>
+  <van-col offset="1" span="24">
+  <van-image round
+  width="7rem"
+  height="7rem"
+  src="../imag/head.png"/>
+  </van-col> 
+</van-row>  -->
+<van-row>
+  <van-col offset="8" span="24">
+  <van-image round
+  width="5rem"
+  height="5rem"
+  src="../imag/head.png"/>
+</van-col> 
+<van-cell-group>
+  <van-cell value="羊抄阅" />
+  <van-cell title="个性签名"  value="认识你们，很开心~" />
+</van-cell-group>
+</van-row>
+  <van-row>
+    <van-col offset="2" span="4" gutter="20">
+      <van-image round
+       width="2rem"
+       height="2rem"
+  src="../imag/在售.png"/>
+    </van-col>
+    <van-col offset="2" span="4" gutter="20">
+      <van-image round
+       width="2rem"
+       height="2rem"
+  src="../imag/已售.png"/>
+    </van-col><van-col offset="2" span="4" gutter="20">
+      <van-image round
+       width="2rem"
+       height="2rem"
+  src="../imag/买入.png"/>
+    </van-col><van-col offset="2" span="4" gutter="20">
+      <van-image round
+       width="2rem"
+       height="2rem"
+  src="../imag/收 藏.png"/>
+     </van-col>
+  </van-row>
+  <van-row>
+    <van-col offset="2" span="4" gutter="20">
+     <text size="10px">在售</text>
+    </van-col>
+    <van-col offset="2" span="4" gutter="20">
+     <text>已售</text>
+    </van-col>
+     <van-col offset="2" span="4" gutter="20">
+     <text>订单</text>
+    </van-col> 
+    <van-col offset="2" span="4" gutter="20">
+     <text>收藏</text>
+    </van-col>
+  </van-row>
+<van-cell-group>
+  <van-cell icon="../imag/个人信息.png" title="" value="个人信息" />
+  <van-cell icon="../imag/收获地址.png" title="" value="收货地址" />
+  <van-cell icon="../imag/账户安全.png" title="" value="账户安全" />
+  <van-cell icon="../imag/信誉等级.png"title="" value="信用等级" />
+</van-cell-group>
+
