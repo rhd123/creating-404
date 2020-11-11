@@ -1,0 +1,9 @@
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  overflow: hidden;
+}

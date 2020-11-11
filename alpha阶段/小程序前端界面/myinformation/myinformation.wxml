@@ -1,0 +1,25 @@
+<van-row type="flex" justify="center">
+  <van-col span="6" style="color:orange">个人信息</van-col>
+</van-row>
+<!-- <view style="display: flex;flex-direction: row;justify-content: center;">
+<view class="head">
+  <image src="../img/head.JPG"></image>
+</view>
+</view> -->
+<view style="display: flex;flex-direction: row;justify-content: center;">
+ <van-row>
+  <van-col span="24">
+  <van-image round
+  width="7rem"
+  height="7rem"
+  src="../img/head.JPG"/>
+  </van-col> 
+</van-row> 
+</view>
+
+<van-cell-group>
+  <van-cell title="昵称" value="羊抄阅" />
+  <van-cell title="个性签名"  label="认识你们，很开心~" />
+  <van-cell title="手机号" value="185-6666-8888" />
+  <van-cell title="邮箱" value="123456@qq.com" />
+</van-cell-group>
