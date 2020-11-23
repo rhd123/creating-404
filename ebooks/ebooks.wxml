@@ -1,0 +1,58 @@
+<view>
+  <view style="display: flex;flex-direction: row;justify-content: center;">
+    <text style="font-size:50rpx;color:gray;" >电子书兑换</text>
+  </view>
+</view>
+<view>
+  <view style="display: flex;flex-direction: row;justify-content: center;">
+    <text style="font-size:50rpx;color:gray;" >成功交易次数:</text>
+    <!-- 交易次数 -->
+    <text style="font-size:50rpx;color:gray;"> 8 </text>
+  </view>
+</view>
+
+
+<!-- 
+<swiper autoplay="true" duration="800">
+  <block wx:for="{{bannerImg}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" mode='aspectFill'/>
+    </swiper-item>
+  </block>
+</swiper>
+ <view class='goodsList'>
+    <block wx:for="{{datalist}}">
+        <view class='eachgood'>
+            <image class='goodimg' src='{{item.imgsrc}}' mode='aspectFill'></image>
+            <text class='goodname'>{{item.txt}}</text>
+            <view class='bottom'>
+              <text class='score'>{{item.score}}</text><text>积分</text>
+              <text class='btn' bind:click="exchange" bindtap="duiHuan">立即兑换</text>
+            </view>
+        </view>
+    </block>
+  </view>
+ -->
+<van-collapse
+  accordion
+  value="{{ activeNames }}" 
+  bind:change="onChange"
+  bind:open="onOpen"
+  bind:close="onClose"
+>
+  <van-collapse-item title="次数达到3次" name="1" >
+    <text selectable="true">二手书网盘链接(长按复制):
+      www.baidu.com</text>
+  </van-collapse-item>
+
+  <van-collapse-item title="次数达到6次" name="2">
+    <text selectable="true">二手书网盘链接(长按复制):
+      www.4399.com</text>
+  </van-collapse-item>
+
+  <van-collapse-item title="次数达到9次" name="3" disabled>
+    <text selectable="true">二手书网盘链接(长按复制):
+      www.4399.com</text>
+  </van-collapse-item>
+</van-collapse>
+
