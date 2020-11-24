@@ -40,17 +40,17 @@
   bind:open="onOpen"
   bind:close="onClose"
 >
-  <van-collapse-item title="次数达到3次" name="1" >
+  <van-collapse-item class="list" title="次数达到3次" name="1" >
     <text selectable="true">二手书网盘链接(长按复制):
       www.baidu.com</text>
   </van-collapse-item>
 
-  <van-collapse-item title="次数达到6次" name="2">
+  <van-collapse-item class="list" title="次数达到6次" name="2">
     <text selectable="true">二手书网盘链接(长按复制):
       www.4399.com</text>
   </van-collapse-item>
 
-  <van-collapse-item title="次数达到9次" name="3" disabled>
+  <van-collapse-item class="list" title="次数达到9次" name="3" disabled>
     <text selectable="true">二手书网盘链接(长按复制):
       www.4399.com</text>
   </van-collapse-item>

@@ -1,4 +1,5 @@
 page{background: #CCFFFF}
+
 /* swiper image{width: 750rpx;height: 300rpx;}
 .goodsList{margin-top: 20rpx;overflow: hidden;padding: 0 14rpx}
 .eachgood{width: 354rpx;font-size: 0;margin-bottom: 10rpx;float: left;background: #fff}
