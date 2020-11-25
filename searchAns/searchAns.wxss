@@ -1,0 +1,11 @@
+/* pages/searchAns/searchAns.wxss */
+.button_style {
+  border-radius: 100px;
+}
+.botton_orig{
+  background-color: white;
+}
+
+.button_clk{
+  background-color: white;
+}
